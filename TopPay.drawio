@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-24T02:41:26.281Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="tWo32MXyWeYKe7mYd1EV" version="12.7.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-24T02:43:29.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="CjxSFVpDqupVA33Ezgm6" version="12.7.4" type="github">
   <diagram id="p6rKzx0xfmjVV4MkVG9j" name="Page-1">
     <mxGraphModel dx="530" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="T-RGAyeo8uILWecWjB98-1" value="Extend (n) Devices" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="210" y="60" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="T-RGAyeo8uILWecWjB98-2" value="Build transaction&lt;br&gt;+ Update db devices&amp;nbsp;&lt;br&gt;+ Verify at db devices&lt;br&gt;+ Check verify result (bool variable) =&amp;gt; need to rollback" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="T-RGAyeo8uILWecWjB98-2" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;Build transaction&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;+ try to extend n devices in local db&amp;nbsp;&lt;br&gt;+ Verify extension result at local db for every devices&lt;br&gt;+ Check verify result (bool variable) =&amp;gt; need to rollback if meet any issue&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="124" y="160" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="T-RGAyeo8uILWecWjB98-5" value="Rollback ?" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
